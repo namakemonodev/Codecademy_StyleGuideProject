@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+* {
+  background-color: white;
+  color: #008B8B;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+h2 {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 30px;
+}
+
+h3 {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  border: 3px solid #DB7093;
+  margin-bottom: 4px;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.dot {
+  width: 150px;
+  height: 150px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+}
+
+.circle-txt {
+  position: absolute;
+  bottom: 40%;
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  color: black;
+}
+
+#darkcyan {
+  background-color: #008B8B;
+}
+
+#palevioletred {
+  background-color: #DB7093;
+}
+
+#oldlace {
+  background-color: #FDF5E6;
+}
+
+#saddlebrown {
+  background-color: #8B4513;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.indieflower {
+  font-family: 'Indie Flower', cursive;
+}
+
+.caveat {
+  font-family: 'Caveat', cursive;
+}
+
+.uchen {
+  font-family: 'Uchen', serif;
+}
+
+.kiwimaru {
+  font-family: 'Kiwi Maru', serif;
+}
+
+.kleeone {
+  font-family: 'Klee One', cursive;
+}
+
+.notosans {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.boldfont {
+  font-weight: 900;
+}
+
+.italicfont {
+  font-style: italic;
+}
+
+.h1style {
+  font-weight: 900;
+  font-size: 40px;
+  font-family: 'Uchen', serif;
+}
+
+.h1stylejp {
+  font-weight: 900;
+  font-size: 40px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.h2style {
+  font-weight: 500;
+  font-size: 30px;
+  font-style: italic;
+  font-family: font-family: 'Caveat', cursive;
+}
+
+.h2stylejp {
+  font-weight: 500;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Kiwi Maru', serif;
+}
+
+.pstyle {
+  font-weight: 400;
+  font-size: 20px;
+  font-family:   font-family: 'Indie Flower', cursive;
+}
+
+.pstylejp {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Klee One', cursive;
+}
